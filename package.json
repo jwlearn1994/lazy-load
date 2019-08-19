@@ -1,5 +1,5 @@
 {
-  "name": "@johnnywang/data-box",
+  "name": "@johnnywang/lazyload",
   "version": "1.0.7",
   "description": "A tiny data handling library for cross environment with getter, setters",
   "scripts": {
