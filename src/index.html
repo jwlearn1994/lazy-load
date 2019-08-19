@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <script src="lazyload.js"></script>
+</head>
+<body>
+  <img class="lazy" data-src="./test.jpg" data-ratio="500/355" alt="#">
+
+  <script>
+  new LazyLoad('.lazy', 100);
+  </script>
+</body>
+</html>
