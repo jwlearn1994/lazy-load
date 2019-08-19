@@ -24,6 +24,6 @@ new LazyLoad('.lazy', 100);
 
 1. 當圖片加載完成後，會自動移除該 img 指定 lazyload 的 className，故請勿將重要 UI 設定於該 className 上。
 
-2. 當畫面上所有指定的 lazyload 的 className 不存在時，會自動移除所有針對 window 物件的事件監聽。
+2. 當畫面上所有指定的 lazyload 的 className 不存在時，會自動移除此套件針對 window 物件所添加的所有事件監聽。
 
 3. Have Fun!~
